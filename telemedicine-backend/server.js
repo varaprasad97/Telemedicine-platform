@@ -62,7 +62,7 @@ io.on('connection', (socket) => {
 });
 
 // MongoDB Connection
-const MONGODB_URI = 'mongodb://127.0.0.1:27017/telemedicine';
+const MONGODB_URI = 'mongodb+srv://varaprasadakumarthi_db_user:xncXSxvkHWJeSteH@cluster0.cwkcfl3.mongodb.net/?appName=Cluster0';
 
 mongoose.connect(MONGODB_URI, {
   useNewUrlParser: true,
