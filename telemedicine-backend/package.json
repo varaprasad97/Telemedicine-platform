@@ -2,10 +2,10 @@
   "name": "telemedicine-backend",
   "version": "1.0.0",
   "description": "Backend for telemedicine platform",
-  "main": "server.js",
+  "type": "module",
+  "main": "api/server.js",
   "scripts": {
-    "start": "node server.js",
-    "dev": "nodemon server.js"
+    "dev": "node api/server.js"
   },
   "keywords": [],
   "author": "",
